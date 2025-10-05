@@ -271,9 +271,9 @@ export default function DigitalDukanApp() {
             <div className="p-6 rounded-xl">
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <h4 className="font-semibold">Contact Info</h4>
-                <p className="mt-2 text-sm text-slate-600">Email: hello@digitaldukan.co.in</p>
-                <p className="text-sm text-slate-600">Phone: +91 98765 43210</p>
-                <p className="text-sm text-slate-600">Address: Your city, India</p>
+                <p className="mt-2 text-sm text-slate-600">Email: sales@digitaldukan.co.in</p>
+                <p className="text-sm text-slate-600">Phone: +91 9823230159</p>
+                <p className="text-sm text-slate-600">Address: Office No. 05, Sadanand Plaza, Near Tahsildar Office, Sawantwadi - 416510</p>
 
                 <div className="mt-4">
                   <h5 className="font-medium">Opening Hours</h5>
