@@ -72,7 +72,7 @@ export default function DigitalDukanApp() {
     setBooking({ name: '', phone: '', email: '', service: 'digital', date: '', time: '', address: '', message: '' });
 
     // Provide a mailto fallback so owner gets notified (works without backend)
-    const mailto = `mailto:hello@digitaldukan.co.in?subject=New%20Booking%20from%20${encodeURIComponent(booking.name)}&body=${encodeURIComponent(JSON.stringify(booking, null, 2))}`;
+    const mailto = `mailto:sales@digitaldukan.co.in?subject=New%20Booking%20from%20${encodeURIComponent(booking.name)}&body=${encodeURIComponent(JSON.stringify(booking, null, 2))}`;
     // open mail client in a new tab (user will need to send)
     window.open(mailto, '_blank');
   };
@@ -142,7 +142,7 @@ export default function DigitalDukanApp() {
           <div className="flex justify-center md:justify-end">
             {/* Illustration placeholder */}
             <div className="w-full max-w-sm bg-white rounded-2xl p-6 shadow-lg">
-              <img src="https://images.unsplash.com/photo-1526378725983-0c1b834d4f2c?auto=format&fit=crop&w=800&q=60" alt="illustration" className="rounded-xl" />
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1000&q=80" alt="illustration" className="rounded-xl" />
             </div>
           </div>
         </section>
